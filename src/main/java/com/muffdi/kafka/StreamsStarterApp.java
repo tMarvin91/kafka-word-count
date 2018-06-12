@@ -9,7 +9,7 @@ import java.util.Properties;
 public class StreamsStarterApp {
 
     public static void main(String[] args) {
-        System.out.println("hi");
+        System.out.println("hi test two");
         Properties properties = new Properties();
         properties.put(StreamsConfig.APPLICATION_ID_CONFIG, "word-counts");
         properties.put(StreamsConfig.BOOTSTRAP_SERVERS_CONFIG, "localhost:9092");
